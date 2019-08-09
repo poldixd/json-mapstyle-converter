@@ -25,6 +25,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "version": "0.0.1"
+    }
 }
