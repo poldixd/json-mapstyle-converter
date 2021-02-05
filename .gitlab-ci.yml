@@ -2,8 +2,9 @@ cache:
   paths:
   - vendor/
 
+image: edbizarro/gitlab-ci-pipeline-php:8.0-alpine
+
 test:
-  image: poldixd/laravel:latest
   script:
     - composer install --no-progress --no-interaction --prefer-dist
     - php vendor/bin/phpunit --coverage-text --colors=never
